@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Text to Speech</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="image_content_Description">image description</string>
+    <string name="speak_">speak</string>
+    <string name="stop">STOP</string>
+    <string name="hint">Enter Text Here</string>
+    <string name="recipient">Recipient</string>
+    <string name="subject">Subject</string>
+    <string name="send">Send</string>
+    <string name="message_body">Message body</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="setting">Setting</string>
+    <string name="need_help">Need Help</string>
+    <string name="step_one">First go to settings then click My device option then in input and control click on Language and input</string>
+    <string name="step_2">Step 2</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_4">Step 4</string>
+    <string name="step_5">Step 5</string>
+    <string name="step_6">Step 6</string>
+    <string name="step_1">Step 1</string>
+    <string name="six">Then you can install voice data of any country</string>
+    <string name="go_to_tts_settings">Go To TTS Settings</string>
+    <string name="speak">speak</string>
+
+</resources>

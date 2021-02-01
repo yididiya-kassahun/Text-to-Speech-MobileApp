@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1eaea"
+    tools:context=".send_Activity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/send_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Text To Speech" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/recip_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/recipient"/>
+    <EditText
+        android:id="@+id/subject_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject"/>
+    <EditText
+        android:id="@+id/body_id"
+        android:background="@drawable/ed_layout"
+        android:layout_width="300sp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:hint="@string/message_body"/>
+
+        <ImageButton
+            android:id="@+id/compose"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="224sp"
+            android:background="#d65c5c"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+</LinearLayout>

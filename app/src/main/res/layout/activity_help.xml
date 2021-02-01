@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".helpActivity">
+
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/setting_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:title="Text To Speech" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/strp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step_1"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/step_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step_one"
+        android:textSize="16sp"/>
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="30dp"
+        android:src="@mipmap/step_1"
+        android:contentDescription="@string/image_content_Description" />
+
+    <TextView
+        android:id="@+id/step_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step_2"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="30dp"
+        android:src="@mipmap/step_2"
+        android:contentDescription="@string/image_content_Description" />
+            <TextView
+                android:id="@+id/step_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_3"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="270dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/step_3"
+                android:contentDescription="@string/image_content_Description" />
+            <Button
+                android:id="@+id/TTS_setting"
+                android:background="#cabcbc"
+                android:layout_margin="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/go_to_tts_settings"/>
+            <TextView
+                android:id="@+id/step_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_4"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="270dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/step_4"
+                android:contentDescription="@string/image_content_Description" />
+            <TextView
+                android:id="@+id/step_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_5"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="270dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/step_5"
+                android:contentDescription="@string/image_content_Description" />
+            <TextView
+                android:id="@+id/step_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_6"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/step_sixDisc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/six"
+                android:textSize="16sp"/>
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="270dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/step_6"
+                android:contentDescription="@string/image_content_Description" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
